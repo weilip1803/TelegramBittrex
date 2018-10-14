@@ -52,6 +52,7 @@ Total Value:<Your total Value>
 There is also a python program with connects to the bittrex beta api to listen for orderDeltas( Trade occurance ). This will relay the orderDelta to the firebase cloud functions and then it will send a message to your chat based on your chat id. 
 
 # OrderDelta Relay example (Values set at random for example)
+```
 **OrderDelta**
 [ETH-ADA]:
         OrderType:LIMIT_BUY
@@ -62,7 +63,7 @@ There is also a python program with connects to the bittrex beta api to listen f
         OpenDate:2018-01-17T21:01
         CloseDate:Not Closed
         IsCanceled:False
-
+```
 There is no security guarantee in any form please use the code at your own risk.
 
 
