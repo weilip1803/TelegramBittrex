@@ -12,6 +12,7 @@ https://core.telegram.org/bots
 This is serves as a help for anyone who wants to build a basic telegram bot that retrives your bittrex account information when ever you send a text to the Bot chat. For the program to work you got to enter your chat_id on line 36 of index.ts and replace all the <Variables> to your relavent information, Telegram bot url, Bittrex api_key, secrect_key. You will need to get your bittrex api keys by just opening up your account information API. 
   
 # Message Example (Values set at random for example)
+```
 Balance
 [ETH]:
         Balance: 9999999
@@ -47,7 +48,7 @@ Total Value:<Your total Value>
         CurrentBid:0.080109
         CurrentAsk:0.080300
         Total:7.980000
-
+```
 There is also a python program with connects to the bittrex beta api to listen for orderDeltas( Trade occurance ). This will relay the orderDelta to the firebase cloud functions and then it will send a message to your chat based on your chat id. 
 
 # OrderDelta Relay example (Values set at random for example)
