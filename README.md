@@ -1,10 +1,12 @@
 # TelegramBittrex
 Telegram notifications for bittrex trades and account balance. 
 
-Please get familiar with firebase and bittrex api on your own.
+Please get familiar with telegram, firebase and bittrex api on your own.
 
 https://github.com/Bittrex/bittrex.github.io
+
 https://firebase.google.com/docs/functions/get-started
+
 https://core.telegram.org/bots
 
 This is serves as a help for anyone who wants to build a basic telegram bot that retrives your bittrex account information when ever you send a text to the Bot chat. For the program to work you got to enter your chat_id on line 36 of index.ts and replace all the <Variables> to your relavent information, Telegram bot url, Bittrex api_key, secrect_key. You will need to get your bittrex api keys by just opening up your account information API. 
